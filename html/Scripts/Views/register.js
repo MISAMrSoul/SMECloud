@@ -17,7 +17,7 @@
     }
     console.log(JSON.stringify(user_input));
     $.ajax({
-        url: "https://localhost:5001/api/account/register",
+        url: "http://localhost:8000/api/account/register",
         beforeSend: function (xhrObj) {
             xhrObj.setRequestHeader("Content-Type", "application/json");
             xhrObj.setRequestHeader("Ocp-Apim-Subscription-Key", "81873e87d2964e958be7dd07465b0f30");

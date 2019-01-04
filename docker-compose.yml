@@ -7,15 +7,18 @@ services:
   #######################################
   # HTML
   ####################################### 
-  uinetcore:
-    image: uinetcore
+  html:
+    image: htmlpage
+    container_name: htmlpagecontainer
     build: ./html
     ports:
       - 9080:80
   #######################################
   # DotnetCoreAPI: SMEAuthenAPI
   ####################################### 
-  web:
+  webapi:
+    image: webapi
+    container_name: webapicontainer
     build: ./source
     networks:
       - kong-net
@@ -79,6 +82,7 @@ services:
   #######################################
   kong:
     image: kong:0.14.1-centos
+    container_name: kongcontainer
     restart: always
     networks:
       - kong-net
@@ -117,6 +121,7 @@ services:
   #######################################
   konga:
     image: pantsel/konga:legacy
+    container_name: kongacontainer
     restart: always
     networks:
         - kong-net
