@@ -30,7 +30,9 @@ services:
     networks:
       - kong-net
     environment:
-      MYSQL_ROOT_PASSWORD: 12345678      
+      MYSQL_ROOT_PASSWORD: 12345678  
+    volumes:
+      - /var/data/mysql:/var/lib/mysql    
     ports:
     - 3306:3306
     - 33060:33060   
