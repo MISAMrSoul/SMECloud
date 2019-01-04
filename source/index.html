@@ -1,0 +1,20 @@
+<htmml>
+
+    <head>
+        <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+    </head>
+
+    <body>
+        <input type="button" value="Test" id="testbutton" value="Test" />
+        <script type="text/javascript">
+            $("#testbutton").click(function () {
+                $.ajax({
+                    url: "http://localhost:8000/api/values",
+                }).done(function () {
+                    alert("done");
+                });
+
+            })
+        </script>
+    </body>
+</htmml>

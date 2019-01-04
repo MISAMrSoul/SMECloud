@@ -1,0 +1,84 @@
+D:/DVCong/Misa.SmeNetCore/bin/Debug/netcoreapp2.2/Misa.SmeNetCore.deps.json
+D:/DVCong/Misa.SmeNetCore/bin/Debug/netcoreapp2.2/Misa.SmeNetCore.runtimeconfig.json
+D:/DVCong/Misa.SmeNetCore/bin/Debug/netcoreapp2.2/Misa.SmeNetCore.runtimeconfig.dev.json
+D:/DVCong/Misa.SmeNetCore/bin/Debug/netcoreapp2.2/Misa.SmeNetCore.dll
+D:/DVCong/Misa.SmeNetCore/bin/Debug/netcoreapp2.2/Misa.SmeNetCore.pdb
+D:/DVCong/Misa.SmeNetCore/obj/Debug/netcoreapp2.2/Misa.SmeNetCore.csprojAssemblyReference.cache
+D:/DVCong/Misa.SmeNetCore/obj/Debug/netcoreapp2.2/Misa.SmeNetCore.csproj.CoreCompileInputs.cache
+D:/DVCong/Misa.SmeNetCore/obj/Debug/netcoreapp2.2/Misa.SmeNetCore.RazorAssemblyInfo.cache
+D:/DVCong/Misa.SmeNetCore/obj/Debug/netcoreapp2.2/Misa.SmeNetCore.RazorAssemblyInfo.cs
+D:/DVCong/Misa.SmeNetCore/obj/Debug/netcoreapp2.2/Misa.SmeNetCore.AssemblyInfoInputs.cache
+D:/DVCong/Misa.SmeNetCore/obj/Debug/netcoreapp2.2/Misa.SmeNetCore.AssemblyInfo.cs
+D:/DVCong/Misa.SmeNetCore/obj/Debug/netcoreapp2.2/Misa.SmeNetCore.RazorTargetAssemblyInfo.cache
+D:/DVCong/Misa.SmeNetCore/obj/Debug/netcoreapp2.2/Misa.SmeNetCore.dll
+D:/DVCong/Misa.SmeNetCore/obj/Debug/netcoreapp2.2/Misa.SmeNetCore.pdb
+/home/dvcong/Documents/DVCong/Misa.SmeNetCore/bin/Debug/netcoreapp2.2/Misa.SmeNetCore.deps.json
+/home/dvcong/Documents/DVCong/Misa.SmeNetCore/bin/Debug/netcoreapp2.2/Misa.SmeNetCore.runtimeconfig.json
+/home/dvcong/Documents/DVCong/Misa.SmeNetCore/bin/Debug/netcoreapp2.2/Misa.SmeNetCore.runtimeconfig.dev.json
+/home/dvcong/Documents/DVCong/Misa.SmeNetCore/bin/Debug/netcoreapp2.2/Misa.SmeNetCore.dll
+/home/dvcong/Documents/DVCong/Misa.SmeNetCore/bin/Debug/netcoreapp2.2/Misa.SmeNetCore.pdb
+/home/dvcong/Documents/DVCong/Misa.SmeNetCore/obj/Debug/netcoreapp2.2/Misa.SmeNetCore.csprojAssemblyReference.cache
+/home/dvcong/Documents/DVCong/Misa.SmeNetCore/obj/Debug/netcoreapp2.2/Misa.SmeNetCore.csproj.CoreCompileInputs.cache
+/home/dvcong/Documents/DVCong/Misa.SmeNetCore/obj/Debug/netcoreapp2.2/Misa.SmeNetCore.RazorAssemblyInfo.cache
+/home/dvcong/Documents/DVCong/Misa.SmeNetCore/obj/Debug/netcoreapp2.2/Misa.SmeNetCore.RazorAssemblyInfo.cs
+/home/dvcong/Documents/DVCong/Misa.SmeNetCore/obj/Debug/netcoreapp2.2/Misa.SmeNetCore.AssemblyInfoInputs.cache
+/home/dvcong/Documents/DVCong/Misa.SmeNetCore/obj/Debug/netcoreapp2.2/Misa.SmeNetCore.AssemblyInfo.cs
+/home/dvcong/Documents/DVCong/Misa.SmeNetCore/obj/Debug/netcoreapp2.2/Misa.SmeNetCore.RazorTargetAssemblyInfo.cache
+/home/dvcong/Documents/DVCong/Misa.SmeNetCore/obj/Debug/netcoreapp2.2/Misa.SmeNetCore.dll
+/home/dvcong/Documents/DVCong/Misa.SmeNetCore/obj/Debug/netcoreapp2.2/Misa.SmeNetCore.pdb
+/home/nvthao/SourceCode/NVTHAO/Misa.SmeNetCore/bin/Debug/netcoreapp2.2/Misa.SmeNetCore.deps.json
+/home/nvthao/SourceCode/NVTHAO/Misa.SmeNetCore/bin/Debug/netcoreapp2.2/Misa.SmeNetCore.runtimeconfig.json
+/home/nvthao/SourceCode/NVTHAO/Misa.SmeNetCore/bin/Debug/netcoreapp2.2/Misa.SmeNetCore.runtimeconfig.dev.json
+/home/nvthao/SourceCode/NVTHAO/Misa.SmeNetCore/bin/Debug/netcoreapp2.2/Misa.SmeNetCore.dll
+/home/nvthao/SourceCode/NVTHAO/Misa.SmeNetCore/bin/Debug/netcoreapp2.2/Misa.SmeNetCore.pdb
+/home/nvthao/SourceCode/NVTHAO/Misa.SmeNetCore/obj/Debug/netcoreapp2.2/Misa.SmeNetCore.csprojAssemblyReference.cache
+/home/nvthao/SourceCode/NVTHAO/Misa.SmeNetCore/obj/Debug/netcoreapp2.2/Misa.SmeNetCore.csproj.CoreCompileInputs.cache
+/home/nvthao/SourceCode/NVTHAO/Misa.SmeNetCore/obj/Debug/netcoreapp2.2/Misa.SmeNetCore.RazorAssemblyInfo.cache
+/home/nvthao/SourceCode/NVTHAO/Misa.SmeNetCore/obj/Debug/netcoreapp2.2/Misa.SmeNetCore.RazorAssemblyInfo.cs
+/home/nvthao/SourceCode/NVTHAO/Misa.SmeNetCore/obj/Debug/netcoreapp2.2/Misa.SmeNetCore.AssemblyInfoInputs.cache
+/home/nvthao/SourceCode/NVTHAO/Misa.SmeNetCore/obj/Debug/netcoreapp2.2/Misa.SmeNetCore.AssemblyInfo.cs
+/home/nvthao/SourceCode/NVTHAO/Misa.SmeNetCore/obj/Debug/netcoreapp2.2/Misa.SmeNetCore.RazorTargetAssemblyInfo.cache
+/home/nvthao/SourceCode/NVTHAO/Misa.SmeNetCore/obj/Debug/netcoreapp2.2/Misa.SmeNetCore.dll
+/home/nvthao/SourceCode/NVTHAO/Misa.SmeNetCore/obj/Debug/netcoreapp2.2/Misa.SmeNetCore.pdb
+/home/misa/NVTHAO/Misa.SmeNetCore/bin/Debug/netcoreapp2.2/Misa.SmeNetCore.deps.json
+/home/misa/NVTHAO/Misa.SmeNetCore/bin/Debug/netcoreapp2.2/Misa.SmeNetCore.runtimeconfig.json
+/home/misa/NVTHAO/Misa.SmeNetCore/bin/Debug/netcoreapp2.2/Misa.SmeNetCore.runtimeconfig.dev.json
+/home/misa/NVTHAO/Misa.SmeNetCore/bin/Debug/netcoreapp2.2/Misa.SmeNetCore.dll
+/home/misa/NVTHAO/Misa.SmeNetCore/bin/Debug/netcoreapp2.2/Misa.SmeNetCore.pdb
+/home/misa/NVTHAO/Misa.SmeNetCore/obj/Debug/netcoreapp2.2/Misa.SmeNetCore.csprojAssemblyReference.cache
+/home/misa/NVTHAO/Misa.SmeNetCore/obj/Debug/netcoreapp2.2/Misa.SmeNetCore.csproj.CoreCompileInputs.cache
+/home/misa/NVTHAO/Misa.SmeNetCore/obj/Debug/netcoreapp2.2/Misa.SmeNetCore.RazorAssemblyInfo.cache
+/home/misa/NVTHAO/Misa.SmeNetCore/obj/Debug/netcoreapp2.2/Misa.SmeNetCore.RazorAssemblyInfo.cs
+/home/misa/NVTHAO/Misa.SmeNetCore/obj/Debug/netcoreapp2.2/Misa.SmeNetCore.AssemblyInfoInputs.cache
+/home/misa/NVTHAO/Misa.SmeNetCore/obj/Debug/netcoreapp2.2/Misa.SmeNetCore.AssemblyInfo.cs
+/home/misa/NVTHAO/Misa.SmeNetCore/obj/Debug/netcoreapp2.2/Misa.SmeNetCore.RazorTargetAssemblyInfo.cache
+/home/misa/NVTHAO/Misa.SmeNetCore/obj/Debug/netcoreapp2.2/Misa.SmeNetCore.dll
+/home/misa/NVTHAO/Misa.SmeNetCore/obj/Debug/netcoreapp2.2/Misa.SmeNetCore.pdb
+/media/pdkien/New Volume/PDKIEN/Misa.SmeNetCore/bin/Debug/netcoreapp2.2/Misa.SmeNetCore.deps.json
+/media/pdkien/New Volume/PDKIEN/Misa.SmeNetCore/bin/Debug/netcoreapp2.2/Misa.SmeNetCore.runtimeconfig.json
+/media/pdkien/New Volume/PDKIEN/Misa.SmeNetCore/bin/Debug/netcoreapp2.2/Misa.SmeNetCore.runtimeconfig.dev.json
+/media/pdkien/New Volume/PDKIEN/Misa.SmeNetCore/bin/Debug/netcoreapp2.2/Misa.SmeNetCore.dll
+/media/pdkien/New Volume/PDKIEN/Misa.SmeNetCore/bin/Debug/netcoreapp2.2/Misa.SmeNetCore.pdb
+/media/pdkien/New Volume/PDKIEN/Misa.SmeNetCore/obj/Debug/netcoreapp2.2/Misa.SmeNetCore.csprojAssemblyReference.cache
+/media/pdkien/New Volume/PDKIEN/Misa.SmeNetCore/obj/Debug/netcoreapp2.2/Misa.SmeNetCore.csproj.CoreCompileInputs.cache
+/media/pdkien/New Volume/PDKIEN/Misa.SmeNetCore/obj/Debug/netcoreapp2.2/Misa.SmeNetCore.RazorAssemblyInfo.cache
+/media/pdkien/New Volume/PDKIEN/Misa.SmeNetCore/obj/Debug/netcoreapp2.2/Misa.SmeNetCore.RazorAssemblyInfo.cs
+/media/pdkien/New Volume/PDKIEN/Misa.SmeNetCore/obj/Debug/netcoreapp2.2/Misa.SmeNetCore.AssemblyInfoInputs.cache
+/media/pdkien/New Volume/PDKIEN/Misa.SmeNetCore/obj/Debug/netcoreapp2.2/Misa.SmeNetCore.AssemblyInfo.cs
+/media/pdkien/New Volume/PDKIEN/Misa.SmeNetCore/obj/Debug/netcoreapp2.2/Misa.SmeNetCore.RazorTargetAssemblyInfo.cache
+/media/pdkien/New Volume/PDKIEN/Misa.SmeNetCore/obj/Debug/netcoreapp2.2/Misa.SmeNetCore.dll
+/media/pdkien/New Volume/PDKIEN/Misa.SmeNetCore/obj/Debug/netcoreapp2.2/Misa.SmeNetCore.pdb
+/media/pdkien/New Volume/PDKIEN/Misa.SmeNetCore/source/bin/Debug/netcoreapp2.2/Misa.SmeNetCore.deps.json
+/media/pdkien/New Volume/PDKIEN/Misa.SmeNetCore/source/bin/Debug/netcoreapp2.2/Misa.SmeNetCore.runtimeconfig.json
+/media/pdkien/New Volume/PDKIEN/Misa.SmeNetCore/source/bin/Debug/netcoreapp2.2/Misa.SmeNetCore.runtimeconfig.dev.json
+/media/pdkien/New Volume/PDKIEN/Misa.SmeNetCore/source/bin/Debug/netcoreapp2.2/Misa.SmeNetCore.dll
+/media/pdkien/New Volume/PDKIEN/Misa.SmeNetCore/source/bin/Debug/netcoreapp2.2/Misa.SmeNetCore.pdb
+/media/pdkien/New Volume/PDKIEN/Misa.SmeNetCore/source/obj/Debug/netcoreapp2.2/Misa.SmeNetCore.csprojAssemblyReference.cache
+/media/pdkien/New Volume/PDKIEN/Misa.SmeNetCore/source/obj/Debug/netcoreapp2.2/Misa.SmeNetCore.csproj.CoreCompileInputs.cache
+/media/pdkien/New Volume/PDKIEN/Misa.SmeNetCore/source/obj/Debug/netcoreapp2.2/Misa.SmeNetCore.RazorAssemblyInfo.cache
+/media/pdkien/New Volume/PDKIEN/Misa.SmeNetCore/source/obj/Debug/netcoreapp2.2/Misa.SmeNetCore.RazorAssemblyInfo.cs
+/media/pdkien/New Volume/PDKIEN/Misa.SmeNetCore/source/obj/Debug/netcoreapp2.2/Misa.SmeNetCore.AssemblyInfoInputs.cache
+/media/pdkien/New Volume/PDKIEN/Misa.SmeNetCore/source/obj/Debug/netcoreapp2.2/Misa.SmeNetCore.AssemblyInfo.cs
+/media/pdkien/New Volume/PDKIEN/Misa.SmeNetCore/source/obj/Debug/netcoreapp2.2/Misa.SmeNetCore.RazorTargetAssemblyInfo.cache
+/media/pdkien/New Volume/PDKIEN/Misa.SmeNetCore/source/obj/Debug/netcoreapp2.2/Misa.SmeNetCore.dll
+/media/pdkien/New Volume/PDKIEN/Misa.SmeNetCore/source/obj/Debug/netcoreapp2.2/Misa.SmeNetCore.pdb

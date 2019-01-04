@@ -1,0 +1,19 @@
+{
+  "ConnectionStrings":{
+    "mysqlConnection" : "server=localhost;port=3306;database=misa.sme.netcore;user=admin;password=12345678"
+  },
+
+  "Logging": {
+    "LogLevel": {
+      "Default": "Warning"
+    }
+  },
+
+  "Token": {
+    "Issuer": "https://localhost:5001",
+    "Audience": "IdentityDemoResource",
+    "Key": "MPtiXjyEYKZGrZlStGikGTPoHmSrlbmmcGHYVrbOcFxtXGtXjoVfSluDzEIsKkSxSUGRoxbNSuoUXLWBdtZqLEVqxBfBvRGqEeFs"
+  },
+
+  "AllowedHosts": "*"
+}

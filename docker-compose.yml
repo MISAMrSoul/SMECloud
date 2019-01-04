@@ -1,0 +1,144 @@
+version: "3"
+
+networks:
+ kong-net:
+  driver: bridge
+services:
+  #######################################
+  # HTML
+  ####################################### 
+  uinetcore:
+    image: uinetcore
+    build: ./html
+    ports:
+      - 9080:80
+  #######################################
+  # DotnetCoreAPI: SMEAuthenAPI
+  ####################################### 
+  web:
+    build: ./source
+    networks:
+      - kong-net
+    ports:
+    - "8080:80" 
+  #######################################
+  # MySQL: The database used by SMEAuthenAPI
+  ####################################### 
+  mysql:
+    container_name: smecloud
+    image: mysql:sme8.0
+    networks:
+      - kong-net
+    environment:
+      MYSQL_ROOT_PASSWORD: 12345678      
+    ports:
+    - 3306:3306
+    - 33060:33060   
+
+  #######################################
+  # Postgres: The database used by Kong
+  #######################################
+  kong-database:
+    image: postgres:9.6
+    restart: always
+    networks:
+      - kong-net
+    environment:
+      POSTGRES_USER: kong
+      POSTGRES_DB: kong
+    ports:
+      - "5432:5432"
+    volumes:
+      - /var/data/kong:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "kong"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  #######################################
+  # Kong database migration
+  #######################################
+  kong-migration:
+    image: kong:0.14.1-centos
+    command: "kong migrations up"
+    networks:
+      - kong-net
+    restart: on-failure
+    environment:
+      KONG_PG_HOST: kong-database
+    links:
+      - kong-database
+    depends_on:
+      - kong-database
+
+  #######################################
+  # Kong: The API Gateway
+  #######################################
+  kong:
+    image: kong:0.14.1-centos
+    restart: always
+    networks:
+      - kong-net
+    environment:
+      KONG_PG_HOST: kong-database
+      KONG_PROXY_LISTEN: 0.0.0.0:8000
+      KONG_PROXY_LISTEN_SSL: 0.0.0.0:8443
+      KONG_ADMIN_LISTEN: 0.0.0.0:8001
+    depends_on:
+      - kong-migration
+      - kong-database
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://kong:8001"]
+      interval: 5s
+      timeout: 2s
+      retries: 15
+    ports:
+      - "8001:8001"
+      - "8000:8000"      
+  #######################################
+  # Konga database prepare
+  #######################################
+  konga-prepare:
+    image: pantsel/konga:legacy
+    command: "-c prepare -a postgres -u postgresql://kong@kong-database:5432/konga_db"
+    networks:
+      - kong-net
+    restart: on-failure
+    links:
+      - kong-database
+    depends_on:
+      - kong-database
+
+  #######################################
+  # Konga: Kong GUI
+  #######################################
+  konga:
+    image: pantsel/konga:legacy
+    restart: always
+    networks:
+        - kong-net
+    environment:
+      DB_ADAPTER: postgres
+      DB_HOST: kong-database
+      DB_USER: kong
+      TOKEN_SECRET: km1GUr4RkcQD7DewhJPNXrCuZwcKmqjb
+      DB_DATABASE: konga_db
+      NODE_ENV: production
+    volumes:
+      - /var/data/konga:/app/kongadata
+    depends_on:
+      - kong-database
+    ports:
+      - "1337:1337"
+  # #######################################
+  # # ELK
+  # #######################################    
+  # elk:    
+  #   image: sebp/elk:651
+  #   networks:
+  #       - kong-net
+  #   ports:
+  #     - "5601:5601"    
+  #     - "9200:9200"
+  #     - "5044:5044"
